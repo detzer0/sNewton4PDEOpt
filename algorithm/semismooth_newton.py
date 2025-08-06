@@ -5,8 +5,8 @@ import numpy as np
 
 import warnings
 
-from globalize import NewtonStep
-from globalize import MonotonicityTest
+from .globalize import NewtonStep
+from .globalize import MonotonicityTest
 
 
 class SemismoothNewton(object):

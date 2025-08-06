@@ -1,1 +1,1 @@
-from semismooth_newton import SemismoothNewton
+from .semismooth_newton import SemismoothNewton

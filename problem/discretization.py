@@ -2,7 +2,7 @@ from dolfin import *
 import scipy.sparse as sp
 import numpy as np
 
-from .assemble_system import assemble_system_csr, assemble_csr, assemble_rhs
+from assemble_system import assemble_system_csr, assemble_csr, assemble_rhs
 
 
 class Discretization(object):

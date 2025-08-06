@@ -4,7 +4,7 @@ import numpy as np
 import scipy.sparse as sp
 from scipy.sparse.linalg import spsolve
 
-from prox import proj_box, grad_proj_box, prox_box_l1, grad_prox_box_l1
+# from prox import proj_box, grad_proj_box, prox_box_l1, grad_prox_box_l1
 
 from discretization import Discretization
 
